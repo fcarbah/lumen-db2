@@ -1,5 +1,5 @@
 {
-    "name": "fcarbah/lumen-db2",
+    "name": "fcarbah/lumen-db2-ext",
     "description": "lumen-db2 is a simple DB2 service provider for Lumen ~6. It provides DB2 Connection by extending the Illuminate Database component of the laravel framework.",
     "keywords": ["lumen", "laravel", "DB2", "Database", "PDO", "ODBC"],
     "license": "MIT",
