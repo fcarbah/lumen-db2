@@ -1,6 +1,6 @@
 {
-    "name": "michaelb/lumen-db2",
-    "description": "lumen-db2 is a simple DB2 service provider for Lumen. It provides DB2 Connection by extending the Illuminate Database component of the laravel framework.",
+    "name": "fcarbah/lumen-db2",
+    "description": "lumen-db2 is a simple DB2 service provider for Lumen ~6. It provides DB2 Connection by extending the Illuminate Database component of the laravel framework.",
     "keywords": ["lumen", "laravel", "DB2", "Database", "PDO", "ODBC"],
     "license": "MIT",
     "authors": [
@@ -11,18 +11,22 @@
         {
             "name": "Michael Bonds",
             "role": "Developer/Contributor"
+        },
+        {
+            "name": "Francis Carbah",
+            "role": "Developer/Contributor"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~5.0",
-        "illuminate/database": "~5.0"
+        "php": ">=7.0",
+        "illuminate/support": "~6.0",
+        "illuminate/database": "~6.0"
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": {
-            "MichaelB\\Database\\DB2\\": "src/"
+            "Feather\\Extensions\\Database\\DB2\\": "src/"
         }
     }
 }
