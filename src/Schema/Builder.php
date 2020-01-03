@@ -1,5 +1,5 @@
 <?php
-namespace MichaelB\Database\DB2\Schema;
+namespace Feather\Extensions\Database\DB2\Schema;
 
 use Closure;
 use Illuminate\Database\Schema\Blueprint;

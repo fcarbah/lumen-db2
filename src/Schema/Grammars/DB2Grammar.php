@@ -1,5 +1,5 @@
 <?php
-namespace MichaelB\Database\DB2\Schema\Grammars;
+namespace Feather\Extensions\Database\DB2\Schema\Grammars;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Connection;

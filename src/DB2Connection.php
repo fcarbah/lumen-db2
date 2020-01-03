@@ -1,14 +1,14 @@
 <?php
-namespace MichaelB\Database\DB2;
+namespace Feather\Extensions\Database\DB2;
 
 use PDO;
 
 use Illuminate\Database\Connection;
 
-use MichaelB\Database\DB2\Schema\Builder;
-use MichaelB\Database\DB2\Query\Processors\DB2Processor;
-use MichaelB\Database\DB2\Query\Grammars\DB2Grammar as QueryGrammar;
-use MichaelB\Database\DB2\Schema\Grammars\DB2Grammar as SchemaGrammar;
+use Feather\Extensions\Database\DB2\Schema\Builder;
+use Feather\Extensions\Database\DB2\Query\Processors\DB2Processor;
+use Feather\Extensions\Database\DB2\Query\Grammars\DB2Grammar as QueryGrammar;
+use Feather\Extensions\Database\DB2\Schema\Grammars\DB2Grammar as SchemaGrammar;
 
 class DB2Connection extends Connection
 {

@@ -1,9 +1,9 @@
 <?php
-namespace MichaelB\Database\DB2;
+namespace Feather\Extensions\Database\DB2;
 
-use MichaelB\Database\DB2\Connectors\ODBCConnector;
-use MichaelB\Database\DB2\Connectors\IBMConnector;
-use MichaelB\Database\DB2\Console\Commands\PublishCommand;
+use Feather\Extensions\Database\DB2\Connectors\ODBCConnector;
+use Feather\Extensions\Database\DB2\Connectors\IBMConnector;
+use Feather\Extensions\Database\DB2\Console\Commands\PublishCommand;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Contracts\Console\Kernel;
