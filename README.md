@@ -1,4 +1,4 @@
-## This is an adaptation of [cooperl22's laravel-db2](https://www.github.com/cooperl22/laravel-db2) to work with [Lumen](http://lumen.laravel.com/)
+## This is an adaptation of [michaelbonds laravel-db2](https://www.github.com/cooperl22/laravel-db2) to work with [Lumen v6](http://lumen.laravel.com/)
 
 # Lumen-DB2
 
