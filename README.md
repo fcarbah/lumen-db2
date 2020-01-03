@@ -6,7 +6,7 @@
 Install lumen-db2 via composer:
 
 ```sh
-composer require michaelb/lumen-db2
+composer require fcarbah/lumen-db2
 ```
 
 Uncomment call to Eloquent and add the DB2ServiceProvideer to ``bootstrap/app.php``:
