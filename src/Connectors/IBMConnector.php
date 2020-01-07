@@ -14,9 +14,9 @@ class IBMConnector extends Connector implements ConnectorInterface
         $dsn = $this->getDsn($config);
 
         $options = [
-            PDO::I5_ATTR_DBC_SYS_NAMING => false,
-            PDO::I5_ATTR_COMMIT => PDO::I5_TXN_NO_COMMIT,
-            PDO::I5_ATTR_JOB_SORT => false
+//            PDO::I5_ATTR_DBC_SYS_NAMING => false,
+//            PDO::I5_ATTR_COMMIT => PDO::I5_TXN_NO_COMMIT,
+//            PDO::I5_ATTR_JOB_SORT => false
         ];
 
         // Naming mode
@@ -25,8 +25,9 @@ class IBMConnector extends Connector implements ConnectorInterface
                 $options[PDO::I5_ATTR_DBC_SYS_NAMING] = true;
                 break;
             case 0:
-            default:
                 $options[PDO::I5_ATTR_DBC_SYS_NAMING] = false;
+                break;
+            default :
                 break;
         }
 
@@ -45,8 +46,9 @@ class IBMConnector extends Connector implements ConnectorInterface
                 $options[PDO::I5_ATTR_COMMIT] = PDO::I5_TXN_SERIALIZABLE;
                 break;
             case 0:
-            default:
                 $options[PDO::I5_ATTR_COMMIT] = PDO::I5_TXN_NO_COMMIT;
+                break;
+            default:
                 break;
         }
 
@@ -56,8 +58,9 @@ class IBMConnector extends Connector implements ConnectorInterface
                 $options[PDO::I5_ATTR_DBC_SYS_NAMING] = true;
                 break;
             case 0:
-            default:
                 $options[PDO::I5_ATTR_DBC_SYS_NAMING] = false;
+                break;
+            default:
                 break;
         }
 
